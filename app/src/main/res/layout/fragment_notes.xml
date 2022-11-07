@@ -37,7 +37,7 @@
                 android:background="@color/white"
                 android:drawableStart="@drawable/ic_search"
                 tools:drawableEnd="@drawable/ic_cancel"
-                android:imeOptions="actionDone"
+                android:imeOptions="actionSearch"
                 android:inputType="text"
                 android:drawablePadding="10dp"
                 android:layout_toStartOf="@+id/btnAdd"
