@@ -53,7 +53,6 @@ class AddOrEditFragment : Fragment() {
                 )
                 noteViewModel.insert(n)
                 it.findNavController().popBackStack()
-                Toast.makeText(context, "insert", Toast.LENGTH_SHORT).show()
             }
         }else{
             binding.etTitle.setText(note.title)
