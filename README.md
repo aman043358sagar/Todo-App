@@ -1,5 +1,5 @@
 # Todo-App
-This project demonstrates retrieving and deleting of data from firebase realtime database and showing data using firebase paging recycler adapter
+This project is demonstration of Room persistence library with MVVM architecture 
 
 insert             |  delete
 :-------------------------:|:-------------------------:
@@ -10,17 +10,14 @@ update             |  search
 :-------------------------:|:-------------------------:
 <img src="https://raw.githubusercontent.com/aman043358sagar/Todo-App/master/Files/update.gif" width="246" height="438">  |  <img src="https://raw.githubusercontent.com/aman043358sagar/Todo-App/master/Files/search.gif" width="246" height="438">
 
-## Library Used
-* Third party
-  * [Firebase realtime database][1] for database
-  * [Firebase UI][2] for firebase recycler adapter
-  * [Firebase Paging Library][3] for firebase recycler adapter
   
-## Topic Used
- * View binding
- * Alert Dialog Box
- * Material Text Input Layout
-
-[1]:  https://firebase.google.com/docs/database/android/start
-[2]:  https://github.com/firebase/FirebaseUI-Android
-[3]: https://firebaseopensource.com/projects/patilshreyas/firebaserecyclerpagination/
+## Built using
+- [Kotlin 💙](https://kotlinlang.org/) - Official programming language for Android development.
+- [Android Architecture Components](https://developer.android.com/topic/libraries/architecture)
+  - [LiveData](https://developer.android.com/topic/libraries/architecture/livedata)
+  - [ViewModel](https://developer.android.com/topic/libraries/architecture/viewmodel)
+- [Jetpack Navigation Component](https://developer.android.com/guide/navigation/) - For Activity/Fragment navigation.
+- [MVVM Architecture](https://www.journaldev.com/20292/android-mvvm-design-pattern) - Architecture pattern.
+- [Room persistence library](https://developer.android.com/codelabs/android-room-with-a-view-kotlin#0)
+- [Coroutines](https://kotlinlang.org/docs/reference/coroutines-overview.html) - For asynchronous programming.
+- [Material Design Components for Android](https://material.io/android) - For Material UI.
