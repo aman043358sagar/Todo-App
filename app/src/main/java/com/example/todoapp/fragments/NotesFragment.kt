@@ -132,4 +132,9 @@ class NotesFragment : Fragment(), NoteAdapter.OnItemClickListener {
         alertDialog.show()
     }
 
+    override fun onResume() {
+        super.onResume()
+        etSearch.hideKeyboard()
+    }
+
 }
